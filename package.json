@@ -17,7 +17,7 @@
     "prettier-config-shared"
   ],
   "description": "快看前端团队 Prettier 统一配置项",
-  "license": "GPL",
+  "license": "GPL-3.0",
   "scripts": {
     "release": "pnpm publish --access public --no-git-check"
   },
