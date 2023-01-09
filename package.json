@@ -3,6 +3,17 @@
   "version": "1.0.0",
   "repository": "https://github.com/Kuaikan-World/prettier-config.git",
   "main": "index.js",
+  "author": {
+    "name": "fanhaoyuan",
+    "email": "fanhaoyuan@kkworld.com"
+  },
+  "keywords": [
+    "prettier-config",
+    "prettier",
+    "prettier-config-shared"
+  ],
+  "description": "快看前端团队 Prettier 统一配置项",
+  "license": "GPL",
   "scripts": {
     "release": "pnpm publish --access public --no-git-check"
   },

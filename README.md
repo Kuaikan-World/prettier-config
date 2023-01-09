@@ -27,3 +27,7 @@
 ```bash
 >$ echo '"@kuaikan/prettier-config"' > .prettierrc
 ```
+
+## 许可证
+
+[GPL v3.0](./LICENSE)
