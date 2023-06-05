@@ -13,6 +13,7 @@ jobs:
         uses: Roang-zero1/github-create-release-action@master
         with:
           version_regex: ^v[[:digit:]]+\.[[:digit:]]+\.[[:digit:]]+
+          version_regex: ^v[[:digit:]]+\.[[:digit:]]+\.[[:digit:]]+(-beta\.[[:digit:]]+)?$
           release_title: ${{ github.ref_name }}
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
